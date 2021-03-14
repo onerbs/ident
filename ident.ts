@@ -18,6 +18,17 @@ export function toSvg(value: string, size: number, options?: Options): string {
 }
 
 /**
+ * Draws an identicon as a base64-encoded SVG string.
+ * @param value - A hexadecimal hash string or a string to be hashed
+ * @param size - Icon size in pixels
+ * @param config - Optional configuration
+ */
+export function base64Svg(value: string, size: number, options?: Options): string {
+  const data = btoa(unescape(encodeURIComponent(toSvg(value, size, options))))
+  return `data:image/svg+xml;base64,${data}`
+}
+
+/**
  * Inputs a value that might be a valid hash string,
  * otherwise the value will be hashed.
  */
