@@ -1,0 +1,27 @@
+{
+  "name": "@onerbs/ident",
+  "version": "1.0.0",
+  "description": "Generate identicons",
+  "author": "Alejandro Elí",
+  "license": "MIT",
+  "main": "ident.ts",
+  "types": "ident.d.ts",
+  "homepage": "https://github.com/onerbs/ident",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onerbs/ident.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onerbs/ident/issues"
+  },
+  "keywords": [
+    "avatar",
+    "identicon"
+  ],
+  "dependencies": {
+    "@onerbs/hashy": "github:onerbs/hashy"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}

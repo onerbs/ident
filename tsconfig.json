@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "skipLibCheck": false,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "ESNext",
+    "outDir": "dist"
+  },
+  "exclude": ["test"]
+}
